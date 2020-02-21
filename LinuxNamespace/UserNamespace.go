@@ -14,7 +14,7 @@ func main()  {
 		Cloneflags: syscall.CLONE_NEWUTS|syscall.CLONE_NEWIPC|syscall.CLONE_NEWPID|
 		syscall.CLONE_NEWNS|syscall.CLONE_NEWUSER,
 	}
-
+	//中文注释
 	cmd.Stdin = os.Stdin
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
